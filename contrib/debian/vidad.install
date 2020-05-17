@@ -1,0 +1,3 @@
+usr/local/bin/vidad usr/bin
+usr/local/bin/vida-cli usr/bin
+debian/examples/vida.conf etc/vida

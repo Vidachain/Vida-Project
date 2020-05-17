@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=VIDA Core
+Comment=VIDA P2P Cryptocurrency
+Comment[fr]=VIDA, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=VIDA, eşten eşe kriptografik sanal para birimi
+Exec=vida-qt %u
+Terminal=false
+Type=Application
+Icon=vida128
+MimeType=x-scheme-handler/vida;
+Categories=Office;Finance;
+StartupWMClass=Vida-qt

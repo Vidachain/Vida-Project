@@ -1,0 +1,8 @@
+/usr/bin/vida-cli		--	gen_context(system_u:object_r:vida_exec_t,s0)
+/usr/sbin/vidad		--	gen_context(system_u:object_r:vida_exec_t,s0)
+/usr/lib(64)?/vida/vidad		--	gen_context(system_u:object_r:vida_exec_t,s0)
+
+/etc/vida(/.*)?		gen_context(system_u:object_r:vida_conf_t,s0)
+/var/lib/vida(/.*)?		gen_context(system_u:object_r:vida_var_lib_t,s0)
+
+(/var)?/run/vidad(/.*)?   gen_context(system_u:object_r:vida_var_run_t,s0)
